@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will basically open the page and verify items present</description>
+   <name>Test1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c58a01c2-85c7-47cc-9926-e4b004bf2b9b</testCaseGuid>
+</TestCaseEntity>

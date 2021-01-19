@@ -82,5 +82,6 @@ WebUI.click(findTestObject('Object Repository/Items on FrontPage/img_Sale_attach
 WebUI.navigateToUrl('http://cms.demo.katalon.com/')
 
 //Close Browser
+WebUI.closeBrowser()
 
 

@@ -107,3 +107,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Items on FrontPage/
 
 //Close Browser
 WebUI.closeBrowser()
+

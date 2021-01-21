@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite3,Chrome 87.0.4280.141,,,2021-01-21 15:05:58,2021-01-21 15:06:19,20.991s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 87.0.4280.141,This will basically open the page and verify items present,,2021-01-21 15:05:59,2021-01-21 15:06:19,19.776s,PASSED
+"openBrowser(""http://cms.demo.katalon.com"")",Chrome 87.0.4280.141,,,2021-01-21 15:06:00,2021-01-21 15:06:08,8.548s,PASSED
+delay(2),Chrome 87.0.4280.141,,,2021-01-21 15:06:08,2021-01-21 15:06:10,2.038s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_2""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:10,2021-01-21 15:06:10,0.377s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a__next page-numbers""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:10,2021-01-21 15:06:11,0.392s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Cart""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:11,2021-01-21 15:06:11,0.346s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Checkout""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:11,2021-01-21 15:06:12,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_My account""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:12,2021-01-21 15:06:12,0.342s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Proudly powered by WordPress""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:12,2021-01-21 15:06:12,0.303s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Sample Page""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:12,2021-01-21 15:06:12,0.284s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Shop""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:12,2021-01-21 15:06:13,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/a_Themes Zone""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:13,2021-01-21 15:06:13,0.285s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/b_ELLIE""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:13,2021-01-21 15:06:13,0.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/div_Katalon Shop                                    Katalon Ecommerce""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:13,2021-01-21 15:06:14,0.284s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/div_Proudly powered by WordPress  Theme ELLIE by Themes Zone""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:14,2021-01-21 15:06:14,0.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h1_Shop""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:14,2021-01-21 15:06:14,0.282s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h1_Shop""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:14,2021-01-21 15:06:14,0.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h2_Archives""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:14,2021-01-21 15:06:15,0.277s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h2_Meta""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:15,2021-01-21 15:06:15,0.286s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h2_Recent Comments""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:15,2021-01-21 15:06:15,0.274s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/h2_Recent Posts""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:15,2021-01-21 15:06:16,0.283s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/i_Search_ellie-icon-search""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:16,2021-01-21 15:06:16,0.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/img_Themes Zone_bitnami-corner-image""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:16,2021-01-21 15:06:16,0.299s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/input_Search for_s""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:16,2021-01-21 15:06:16,0.295s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/li_Comments RSS""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:16,2021-01-21 15:06:17,0.286s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/li_Entries RSS""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:17,2021-01-21 15:06:17,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/li_Log in""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:17,2021-01-21 15:06:17,0.276s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/li_WordPress.org""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:17,2021-01-21 15:06:18,0.277s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/p_Showing 112 of 24 results""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:18,2021-01-21 15:06:18,0.282s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Items on FrontPage/ul_CartCheckoutMy accountSample PageShop""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:06:18,2021-01-21 15:06:18,0.274s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-21 15:06:18,2021-01-21 15:06:19,0.682s,PASSED

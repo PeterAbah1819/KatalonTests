@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite2,Chrome 87.0.4280.141,,,2021-01-21 15:05:17,2021-01-21 15:05:43,25.524s,PASSED
+,,,,,,,
+Test Cases/Test3,Chrome 87.0.4280.141,,,2021-01-21 15:05:19,2021-01-21 15:05:43,24.178s,PASSED
+"openBrowser(""http://cms.demo.katalon.com/"")",Chrome 87.0.4280.141,,,2021-01-21 15:05:19,2021-01-21 15:05:28,8.514s,PASSED
+"click(findTestObject(""Object Repository/Items on FrontPage/a_My account""))",Chrome 87.0.4280.141,,,2021-01-21 15:05:28,2021-01-21 15:05:30,2.611s,PASSED
+"sendKeys(findTestObject(""Object Repository/Try to Login/input__username""), ""peterabah@test.com"")",Chrome 87.0.4280.141,,,2021-01-21 15:05:30,2021-01-21 15:05:31,0.473s,PASSED
+"sendKeys(findTestObject(""Object Repository/Try to Login/input__password""), ""petertest123"")",Chrome 87.0.4280.141,,,2021-01-21 15:05:31,2021-01-21 15:05:31,0.446s,PASSED
+"click(findTestObject(""Object Repository/Try to Login/input__rememberme""))",Chrome 87.0.4280.141,,,2021-01-21 15:05:31,2021-01-21 15:05:32,0.505s,PASSED
+"click(findTestObject(""Object Repository/Try to Login/button_Log in""))",Chrome 87.0.4280.141,,,2021-01-21 15:05:32,2021-01-21 15:05:33,1.560s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Try to Login/li_ERROR Invalid username. Lost your password""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:05:33,2021-01-21 15:05:34,0.317s,PASSED
+"click(findTestObject(""Object Repository/Try to Login/a_Lost your password""))",Chrome 87.0.4280.141,,,2021-01-21 15:05:34,2021-01-21 15:05:39,5.673s,PASSED
+"sendKeys(findTestObject(""Object Repository/Try to Login/input_Username or email_user_login""), ""peterabah@test.com"")",Chrome 87.0.4280.141,,,2021-01-21 15:05:39,2021-01-21 15:05:40,0.571s,PASSED
+"click(findTestObject(""Object Repository/Try to Login/button_Reset password""))",Chrome 87.0.4280.141,,,2021-01-21 15:05:40,2021-01-21 15:05:42,1.669s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Try to Login/li_ERROR Invalid username. Lost your password""), 2)",Chrome 87.0.4280.141,,,2021-01-21 15:05:42,2021-01-21 15:05:42,0.496s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-21 15:05:42,2021-01-21 15:05:43,0.637s,PASSED

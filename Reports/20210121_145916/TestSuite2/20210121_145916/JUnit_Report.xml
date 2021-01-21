@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite2" time="25.385" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TestSuite2" tests="1" failures="0" errors="0" time="25.385" skips="0" timestamp="2021-01-21 14:59:22" hostname="peter - DESKTOP-6T43BBG" id="Test Suites/TestSuite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\peter\\git\\KatalonTests2\\Reports\\20210121_145916\\TestSuite2\\20210121_145916"/>
+         <property name="logFiles" value="C:\\Users\\peter\\git\\KatalonTests2\\Reports\\20210121_145916\\TestSuite2\\20210121_145916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="peter - DESKTOP-6T43BBG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.21.21"/>
+         <property name="sessionId" value="24ced0629130b789820f2e07161c9af6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test3" time="18.656" classname="Test Cases/Test3" status="PASSED">
+         <system-out><![CDATA[2021-01-21 14:59:24 - [TEST_CASE][PASSED] - Test Cases/Test3: Test Cases/Test3
+
+2021-01-21 14:59:24 - [TEST_STEP][PASSED] - openBrowser("http://cms.demo.katalon.com/"): Browser is opened with url: 'http://cms.demo.katalon.com/'
+
+2021-01-21 14:59:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 14:59:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 14:59:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://cms.demo.katalon.com/'
+
+2021-01-21 14:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Items on FrontPage/a_My account")): Object: 'Object Repository/Items on FrontPage/a_My account' is clicked on
+
+2021-01-21 14:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Items on FrontPage/a_My account' is clicked on
+
+2021-01-21 14:59:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Try to Login/input__username"), "peterabah@test.com"): Keys 'peterabah@test.com' sent to object: 'Object Repository/Try to Login/input__username'
+
+2021-01-21 14:59:35 - [MESSAGE][PASSED] - Keys 'peterabah@test.com' sent to object: 'Object Repository/Try to Login/input__username'
+
+2021-01-21 14:59:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Try to Login/input__password"), "petertest123"): Keys 'petertest123' sent to object: 'Object Repository/Try to Login/input__password'
+
+2021-01-21 14:59:35 - [MESSAGE][PASSED] - Keys 'petertest123' sent to object: 'Object Repository/Try to Login/input__password'
+
+2021-01-21 14:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Try to Login/input__rememberme")): Object: 'Object Repository/Try to Login/input__rememberme' is clicked on
+
+2021-01-21 14:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Try to Login/input__rememberme' is clicked on
+
+2021-01-21 14:59:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Try to Login/button_Log in")): Object: 'Object Repository/Try to Login/button_Log in' is clicked on
+
+2021-01-21 14:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Try to Login/button_Log in' is clicked on
+
+2021-01-21 14:59:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Try to Login/li_ERROR Invalid username. Lost your password"), 2): Object 'Object Repository/Try to Login/li_ERROR Invalid username. Lost your password' is present
+
+2021-01-21 14:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/Try to Login/li_ERROR Invalid username. Lost your password' is present
+
+2021-01-21 14:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Try to Login/a_Lost your password")): Object: 'Object Repository/Try to Login/a_Lost your password' is clicked on
+
+2021-01-21 14:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Try to Login/a_Lost your password' is clicked on
+
+2021-01-21 14:59:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Try to Login/input_Username or email_user_login"), "peterabah@test.com"): Keys 'peterabah@test.com' sent to object: 'Object Repository/Try to Login/input_Username or email_user_login'
+
+2021-01-21 14:59:40 - [MESSAGE][PASSED] - Keys 'peterabah@test.com' sent to object: 'Object Repository/Try to Login/input_Username or email_user_login'
+
+2021-01-21 14:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Try to Login/button_Reset password")): Object: 'Object Repository/Try to Login/button_Reset password' is clicked on
+
+2021-01-21 14:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Try to Login/button_Reset password' is clicked on
+
+2021-01-21 14:59:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Try to Login/li_ERROR Invalid username. Lost your password"), 2): Object 'Object Repository/Try to Login/li_ERROR Invalid username. Lost your password' is present
+
+2021-01-21 14:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/Try to Login/li_ERROR Invalid username. Lost your password' is present
+
+2021-01-21 14:59:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 14:59:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 14:59:22 - [TEST_SUITE][PASSED] - TestSuite2: Test Cases/Test3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

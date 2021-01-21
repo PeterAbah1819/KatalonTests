@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite3" time="26.776" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TestSuite3" tests="1" failures="0" errors="0" time="26.776" skips="0" timestamp="2021-01-21 15:05:58" hostname="peter - DESKTOP-6T43BBG" id="Test Suites/TestSuite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\peter\\git\\KatalonTests2\\Reports\\20210121_150301\\TestSuite3\\20210121_150307"/>
+         <property name="logFiles" value="C:\\Users\\peter\\git\\KatalonTests2\\Reports\\20210121_150301\\TestSuite3\\20210121_150307\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="peter - DESKTOP-6T43BBG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.21.21"/>
+         <property name="sessionId" value="4e88d7bea638cb452458750dbad4fbb1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="19.776" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:05:59 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2021-01-21 15:06:00 - [TEST_STEP][PASSED] - openBrowser("http://cms.demo.katalon.com"): Browser is opened with url: 'http://cms.demo.katalon.com'
+
+2021-01-21 15:06:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 15:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 15:06:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://cms.demo.katalon.com'
+
+2021-01-21 15:06:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-21 15:06:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-21 15:06:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_2"), 2): Object 'Object Repository/Items on FrontPage/a_2' is present
+
+2021-01-21 15:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_2' is present
+
+2021-01-21 15:06:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a__next page-numbers"), 2): Object 'Object Repository/Items on FrontPage/a__next page-numbers' is present
+
+2021-01-21 15:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a__next page-numbers' is present
+
+2021-01-21 15:06:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Cart"), 2): Object 'Object Repository/Items on FrontPage/a_Cart' is present
+
+2021-01-21 15:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Cart' is present
+
+2021-01-21 15:06:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Checkout"), 2): Object 'Object Repository/Items on FrontPage/a_Checkout' is present
+
+2021-01-21 15:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Checkout' is present
+
+2021-01-21 15:06:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_My account"), 2): Object 'Object Repository/Items on FrontPage/a_My account' is present
+
+2021-01-21 15:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_My account' is present
+
+2021-01-21 15:06:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Proudly powered by WordPress"), 2): Object 'Object Repository/Items on FrontPage/a_Proudly powered by WordPress' is present
+
+2021-01-21 15:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Proudly powered by WordPress' is present
+
+2021-01-21 15:06:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Sample Page"), 2): Object 'Object Repository/Items on FrontPage/a_Sample Page' is present
+
+2021-01-21 15:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Sample Page' is present
+
+2021-01-21 15:06:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Shop"), 2): Object 'Object Repository/Items on FrontPage/a_Shop' is present
+
+2021-01-21 15:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Shop' is present
+
+2021-01-21 15:06:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/a_Themes Zone"), 2): Object 'Object Repository/Items on FrontPage/a_Themes Zone' is present
+
+2021-01-21 15:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/a_Themes Zone' is present
+
+2021-01-21 15:06:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/b_ELLIE"), 2): Object 'Object Repository/Items on FrontPage/b_ELLIE' is present
+
+2021-01-21 15:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/b_ELLIE' is present
+
+2021-01-21 15:06:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/div_Katalon Shop                                    Katalon Ecommerce"), 2): Object 'Object Repository/Items on FrontPage/div_Katalon Shop                                    Katalon Ecommerce' is present
+
+2021-01-21 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/div_Katalon Shop                                    Katalon Ecommerce' is present
+
+2021-01-21 15:06:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/div_Proudly powered by WordPress  Theme ELLIE by Themes Zone"), 2): Object 'Object Repository/Items on FrontPage/div_Proudly powered by WordPress  Theme ELLIE by Themes Zone' is present
+
+2021-01-21 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/div_Proudly powered by WordPress  Theme ELLIE by Themes Zone' is present
+
+2021-01-21 15:06:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h1_Shop"), 2): Object 'Object Repository/Items on FrontPage/h1_Shop' is present
+
+2021-01-21 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h1_Shop' is present
+
+2021-01-21 15:06:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h1_Shop"), 2): Object 'Object Repository/Items on FrontPage/h1_Shop' is present
+
+2021-01-21 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h1_Shop' is present
+
+2021-01-21 15:06:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h2_Archives"), 2): Object 'Object Repository/Items on FrontPage/h2_Archives' is present
+
+2021-01-21 15:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h2_Archives' is present
+
+2021-01-21 15:06:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h2_Meta"), 2): Object 'Object Repository/Items on FrontPage/h2_Meta' is present
+
+2021-01-21 15:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h2_Meta' is present
+
+2021-01-21 15:06:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h2_Recent Comments"), 2): Object 'Object Repository/Items on FrontPage/h2_Recent Comments' is present
+
+2021-01-21 15:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h2_Recent Comments' is present
+
+2021-01-21 15:06:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/h2_Recent Posts"), 2): Object 'Object Repository/Items on FrontPage/h2_Recent Posts' is present
+
+2021-01-21 15:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/h2_Recent Posts' is present
+
+2021-01-21 15:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/i_Search_ellie-icon-search"), 2): Object 'Object Repository/Items on FrontPage/i_Search_ellie-icon-search' is present
+
+2021-01-21 15:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/i_Search_ellie-icon-search' is present
+
+2021-01-21 15:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/img_Themes Zone_bitnami-corner-image"), 2): Object 'Object Repository/Items on FrontPage/img_Themes Zone_bitnami-corner-image' is present
+
+2021-01-21 15:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/img_Themes Zone_bitnami-corner-image' is present
+
+2021-01-21 15:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/input_Search for_s"), 2): Object 'Object Repository/Items on FrontPage/input_Search for_s' is present
+
+2021-01-21 15:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/input_Search for_s' is present
+
+2021-01-21 15:06:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/li_Comments RSS"), 2): Object 'Object Repository/Items on FrontPage/li_Comments RSS' is present
+
+2021-01-21 15:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/li_Comments RSS' is present
+
+2021-01-21 15:06:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/li_Entries RSS"), 2): Object 'Object Repository/Items on FrontPage/li_Entries RSS' is present
+
+2021-01-21 15:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/li_Entries RSS' is present
+
+2021-01-21 15:06:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/li_Log in"), 2): Object 'Object Repository/Items on FrontPage/li_Log in' is present
+
+2021-01-21 15:06:17 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/li_Log in' is present
+
+2021-01-21 15:06:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/li_WordPress.org"), 2): Object 'Object Repository/Items on FrontPage/li_WordPress.org' is present
+
+2021-01-21 15:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/li_WordPress.org' is present
+
+2021-01-21 15:06:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/p_Showing 112 of 24 results"), 2): Object 'Object Repository/Items on FrontPage/p_Showing 112 of 24 results' is present
+
+2021-01-21 15:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/p_Showing 112 of 24 results' is present
+
+2021-01-21 15:06:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Items on FrontPage/ul_CartCheckoutMy accountSample PageShop"), 2): Object 'Object Repository/Items on FrontPage/ul_CartCheckoutMy accountSample PageShop' is present
+
+2021-01-21 15:06:18 - [MESSAGE][PASSED] - Object 'Object Repository/Items on FrontPage/ul_CartCheckoutMy accountSample PageShop' is present
+
+2021-01-21 15:06:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-21 15:06:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 15:05:58 - [TEST_SUITE][PASSED] - TestSuite3: Test Cases/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

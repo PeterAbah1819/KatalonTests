@@ -65,8 +65,22 @@ WebUI.click(findTestObject('Object Repository/Try To Order/span_Select an option
 
 WebUI.click(findTestObject('Object Repository/Try To Order/span_Abia'))
 
+WebUI.sendKeys(findTestObject('Object Repository/Try To Order/input__billing_phone'), '093472842')
 
+WebUI.sendKeys(findTestObject('Object Repository/Try To Order/input__billing_email'), 'VladMAka@hotmail.com')
+
+WebUI.click(findTestObject('Object Repository/Try To Order/input__ship_to_different_address'))
+
+WebUI.click(findTestObject('Object Repository/Try To Order/input__ship_to_different_address'))
+	
+WebUI.sendKeys(findTestObject('Object Repository/Try To Order/textarea_(optional)_order_comments'), 'Try to Delive on Time, Let it not Get to 1month Please')
+
+//Place order
+WebUI.click(findTestObject('Object Repository/Try To Order/button_Place order'))
+
+//Delay Abit
 WebUI.delay(5)
+
 //Write a reveiw
 WebUI.navigateToUrl('http://cms.demo.katalon.com/product/flying-ninja/')
 
@@ -89,5 +103,5 @@ WebUI.click(findTestObject('Object Repository/Try To Order/a_5'))
 WebUI.click(findTestObject('Object Repository/Try To Order/input__wp-comment-cookies-consent'))
 
 //Submit
-not_run: WebUI.click(findTestObject('Object Repository/Try To Order/input_Save my name, email, and website in this browser for the next time I comment._submit'))
+WebUI.click(findTestObject('Object Repository/Try To Order/input_Save my name, email, and website in this browser for the next time I comment._submit'))
 
